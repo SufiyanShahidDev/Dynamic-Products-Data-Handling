@@ -1,12 +1,12 @@
-// let rough = "";
+let rough = "";
 
-// function Product(id, title, Description, image, price) {
-//     this.id = id;
-//     this.title = title;
-//     this.Description = Description;
-//     this.image = image;
-//     this.price = price;
-// }
+function Product(id, title, Description, image, price) {
+    this.id = id;
+    this.title = title;
+    this.Description = Description;
+    this.image = image;
+    this.price = price;
+}
 
 let productData = [
     new Product("1", "Durvesh", "Grapefruit, Lemon, Bergamot", "https://saeedghani.pk/cdn/shop/files/durvesh_1024x1024.jpg?v=1756815246", "4,990"),
