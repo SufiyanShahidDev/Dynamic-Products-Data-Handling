@@ -19,26 +19,26 @@
 //     new Product("8", "Haider Sports", "Fresh citrus, aquatic", "https://saeedghani.pk/cdn/shop/files/HS_1024x1024.webp?v=1764273648", "4,990")
 // ];
 
-function showProducts() {
-    for (let i = 0; i < productData.length; i++) {
-        let element = productData[i];
+// function showProducts() {
+//     for (let i = 0; i < productData.length; i++) {
+//         let element = productData[i];
 
-        rough += `
+//         rough += `
 
-            <div class="card m-3" style="width: 18rem;">
-                <img src=${element.image} class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">${element.title}</h5>
-                    <p class="card-text">${element.Description}.</p>
-                    <h5 class="card-title">Rs. <span>${element.price}</span></h5>
-                    <a href="#" class="btn btn-warning">Add To Cart</a>
-                </div>
-            </div>
+//             <div class="card m-3" style="width: 18rem;">
+//                 <img src=${element.image} class="card-img-top" alt="...">
+//                 <div class="card-body">
+//                     <h5 class="card-title">${element.title}</h5>
+//                     <p class="card-text">${element.Description}.</p>
+//                     <h5 class="card-title">Rs. <span>${element.price}</span></h5>
+//                     <a href="#" class="btn btn-warning">Add To Cart</a>
+//                 </div>
+//             </div>
 
-        `;
+//         `;
 
-        document.getElementById("show-all-product").innerHTML = rough;
-    }
-}
+//         document.getElementById("show-all-product").innerHTML = rough;
+//     }
+// }
 
-showProducts();
+// showProducts();
