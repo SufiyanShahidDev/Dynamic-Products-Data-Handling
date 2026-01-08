@@ -44,12 +44,12 @@ function showProducts() {
 showProducts();
 
 
-function toggleBtn() {
-  var toggleBtn = document.getElementById("input");
+// function toggleBtn() {
+//   var toggleBtn = document.getElementById("input");
 
-  if (toggleBtn.checked) {
-    document.body.classList.add("dark");
-  } else {
-    document.body.classList.remove("dark");
-  }
-}
+//   if (toggleBtn.checked) {
+//     document.body.classList.add("dark");
+//   } else {
+//     document.body.classList.remove("dark");
+//   }
+// }
